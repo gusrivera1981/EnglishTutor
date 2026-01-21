@@ -1,49 +1,49 @@
-&lt;!-- markdownlint-disable MD033 MD041 --&gt;
-&lt;p align="center"&gt;
-  &lt;img src="screenshots/voice_conversation.jpg" width="200" alt="Logo" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"&gt;
-&lt;/p&gt;
+<!-- markdownlint-disable MD033 MD041 -->
+<p align="center">
+  <img src="screenshots/voice_conversation.jpg" width="200" alt="Logo" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
-&lt;h1 align="center"&gt;🎤 English Voice Tutor&lt;/h1&gt;
+<h1 align="center">🎤 English Voice Tutor</h1>
 
-&lt;p align="center"&gt;
-  &lt;strong&gt;App Android para practicar inglés conversacional con IA local&lt;/strong&gt;
-&lt;/p&gt;
+<p align="center">
+  <strong>App Android para practicar inglés conversacional con IA local</strong>
+</p>
 
-&lt;p align="center"&gt;
-  &lt;a href="https://github.com/gusrivera1981/EnglishTutor/stargazers"&gt;
-    &lt;img src="https://img.shields.io/github/stars/gusrivera1981/EnglishTutor?style=flat-square" alt="Stars"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://github.com/gusrivera1981/EnglishTutor/issues"&gt;
-    &lt;img src="https://img.shields.io/github/issues/gusrivera1981/EnglishTutor?style=flat-square" alt="Issues"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://github.com/gusrivera1981/EnglishTutor/blob/main/LICENSE"&gt;
-    &lt;img src="https://img.shields.io/github/license/gusrivera1981/EnglishTutor?style=flat-square" alt="License"&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
+<p align="center">
+  <a href="https://github.com/gusrivera1981/EnglishTutor/stargazers">
+    <img src="https://img.shields.io/github/stars/gusrivera1981/EnglishTutor?style=flat-square" alt="Stars">
+  </a>
+  <a href="https://github.com/gusrivera1981/EnglishTutor/issues">
+    <img src="https://img.shields.io/github/issues/gusrivera1981/EnglishTutor?style=flat-square" alt="Issues">
+  </a>
+  <a href="https://github.com/gusrivera1981/EnglishTutor/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/gusrivera1981/EnglishTutor?style=flat-square" alt="License">
+  </a>
+</p>
 
 ---
 
 ## 📱 Capturas de Pantalla
 
-&lt;table align="center"&gt;
-  &lt;tr&gt;
-    &lt;td align="center" width="33%"&gt;
-      &lt;img src="screenshots/voice_conversation.jpg" width="250" style="border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="Conversación con voz"&gt;
-      &lt;br&gt;
-      &lt;strong&gt;🎤 Conversación con voz&lt;/strong&gt;
-    &lt;/td&gt;
-    &lt;td align="center" width="33%"&gt;
-      &lt;img src="screenshots/translation_feature.jpg" width="250" style="border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="Traducción instantánea"&gt;
-      &lt;br&gt;
-      &lt;strong&gt;🌐 Traducción instantánea&lt;/strong&gt;
-    &lt;/td&gt;
-    &lt;td align="center" width="33%"&gt;
-      &lt;img src="screenshots/home_screen.jpg" width="250" style="border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="Pantalla principal"&gt;
-      &lt;br&gt;
-      &lt;strong&gt;🏠 Pantalla principal&lt;/strong&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <img src="screenshots/voice_conversation.jpg" width="250" style="border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="Conversación con voz">
+      <br>
+      <strong>🎤 Conversación con voz</strong>
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/translation_feature.jpg" width="250" style="border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="Traducción instantánea">
+      <br>
+      <strong>🌐 Traducción instantánea</strong>
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/home_screen.jpg" width="250" style="border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="Pantalla principal">
+      <br>
+      <strong>🏠 Pantalla principal</strong>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -60,15 +60,31 @@
 
 ## 🛠️ Requisitos
 
-### 📋 Prerrequisitos
-
 - **Android Studio** (Hedgehog o superior)
-- **Ollama** instalado y corriendo localmente
-- **Modelo**: `llama3.1:8b` descargado (`ollama run llama3.1:8b`)
+- **Ollama** corriendo con `llama3.1:8b`
+- **Configurar IP** en `gradle.properties` global
 
-### 🔧 Configuración Ollama
+---
 
-1. **Instala Ollama**: https://ollama.ai/
-2. **Descarga el modelo**:
-   ```bash
-   ollama run llama3.1:8b
+## 🚀 Instalación
+
+1. **Clonar**: `git clone https://github.com/gusrivera1981/EnglishTutor.git`
+2. **Abrir** en Android Studio
+3. **Configurar** IP en `~/.gradle/gradle.properties`
+4. **Ejecutar** la app
+
+---
+
+## 📝 Uso
+
+1. Ejecuta la app
+2. Permite el micrófono
+3. Habla en español
+4. Escucha la respuesta en inglés
+5. Toca los iconos debajo del mensaje
+
+---
+
+<p align="center">
+  <i>Hecho con ❤️ y ☕ en Android Studio</i>
+</p>
