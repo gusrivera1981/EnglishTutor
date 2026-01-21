@@ -1,0 +1,51 @@
+# ==================== ARCHIVOS STANDARD ANDROID ====================
+
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+/*/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+/captures/
+.externalNativeBuild
+/.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ==================== ARCHIVOS SENSIBLES (PROTEGE TU IP) ====================
+
+# Variables de entorno locales (contiene tu IP de Ollama)
+gradle.properties
+
+# Configuración de red local
+network_security_config.xml
+
+# ==================== ARCHIVOS TEMPORALES ====================
+
+# Kotlin
+.kotlin/
+
+# Logs
+*.log
+
+# ==================== ARCHIVOS TEMPORALES DE MEMORIA ====================
+*.hprof
